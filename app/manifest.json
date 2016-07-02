@@ -1,0 +1,13 @@
+{
+  "name": "Europa",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "A chrome extension for searching project easily in Europa",
+  "content_scripts": [
+    {
+      "matches": ["file:///home/*", "http://europa.scmauritius.com:8080/apex/f?p=100:28*"],
+      "css": ["styles/main.css"],
+      "js": ["js/application.js"]
+    }
+  ]
+}
